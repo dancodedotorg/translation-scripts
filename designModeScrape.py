@@ -39,12 +39,12 @@ html_input = """
 result = extract_strings(html_input)
 index = 0
 tempStr = ""
-tempStr += "var TRANSLATETEXT = {\n"
+tempStr += "var TRANSLATIONTEXT = {\n"
 for (type, element_id, string) in result:
     tempStr += f'  "{element_id}_{index}": "{string}",\n'
     index += 1
 tempStr = tempStr[:-2] + "\n"
-tempStr += "}"
+tempStr += "};"
 print(tempStr)
 print()
 
@@ -52,5 +52,9 @@ library_name = "HAIWL5"
 
 index = 0
 for (type, element_id, string) in result:
-    print(f'var {element_id}[property] = I18n_{library_name}.translate("{element_id}_{index}")')
+    print(f'var {element_id}[property] = I18n_{library_name}.translate("{element_id}_{index}");')
     index += 1
+
+# TODO: Check the type of the element, and use that to replace [property] (ie: label/button/textarea: Text, option: Option, etc)
+
+# TODO: Generate the setText / setProperty statements based on the type. Tricky for dropdown options - need to create an array?
