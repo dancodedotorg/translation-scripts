@@ -35,7 +35,7 @@ html_input = """
 """  # The provided sample input
 
 result = extract_strings(html_input)
-index = 0;
+index = 0
 tempStr = ""
 tempStr += "var TRANSLATETEXT = {\n"
 for (type, element_id, string) in result:
@@ -43,3 +43,11 @@ for (type, element_id, string) in result:
     index += 1
 tempStr += "}"
 print(tempStr)
+print()
+
+library_name = "HAIW"
+
+index = 0
+for (type, element_id, string) in result:
+    print(f'var {element_id}[property] = I18n_{library_name}.translate("{element_id}_{index}")')
+    index += 1
