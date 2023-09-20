@@ -52,9 +52,15 @@ library_name = "HAIWL5"
 
 index = 0
 for (type, element_id, string) in result:
-    print(f'var {element_id}[property] = I18n_{library_name}.translate("{element_id}_{index}");')
+    if type == "label" or type == "button" or type == "textarea":
+        print(f'var {element_id}Text = I18n_{library_name}.translate("{element_id}_{index}");')
+    if type == "input":
+        print(f'var {element_id}Placeholder = I18n_{library_name}.translate("{element_id}_{index}");')
+    if type == "option":
+        print(f'var {element_id}Option = I18n_{library_name}.translate("{element_id}_{index}");')
     index += 1
 
-# TODO: Check the type of the element, and use that to replace [property] (ie: label/button/textarea: Text, option: Option, etc)
-
 # TODO: Generate the setText / setProperty statements based on the type. Tricky for dropdown options - need to create an array?
+
+# TODO: Generate setStyle tags for labels / buttons / etc to overflow
+# setStyle("{id}", "overflow: auto");
