@@ -1,0 +1,58 @@
+//ACTIVITIES
+var HIKING = {"en": "Top 3 Hiking Spots in your Area", "i18n": ""};
+var SPOT_GEMSTONES = {"en": "How to spot gemstones in your neighborhood", "i18n": ""};
+var FREE_THROW = {"en": "Mastering the free-throw shot in basketball", "i18n": ""};
+var OTTER_RELEASE = {"en": "Otter is released back into water for the first time", "i18n": ""};
+var BAKING_SODA_VINEGAR = {"en": "Baking soda and vinegar: what could go wrong?", "i18n": ""};
+var LEARN_DRIVE = {"en": "5 Tips when learning to drive", "i18n": ""};
+var STARGAZING = {"en": "Stargazing: how to read the night sky", "i18n": ""};
+var CODE_ORG = {"en": "Learn to code with Code.org", "i18n": ""};
+var ORIGAMI_FLOWERS = {"en": "How to create Origami flowers", "i18n": ""};
+var DRAW_PASTELS = {"en": "Learn to Draw with pastels", "i18n": ""};
+
+//MEDIA
+var GREEN_LANTERN = {"en": "Why the Green Lantern is the best superhero of all time", "i18n": ""};
+var HP_PJ = {"en": "Harry Potter or Percy Jackson: which is better?", "i18n": ""};
+var LOFI_BEATS = {"en": "Low-fi beats while in the makerspace", "i18n": ""};
+var MODERN_HORROR = {"en": "Why modern “horror” movies aren’t actually very scary", "i18n": ""};
+var KPOP = {"en": "Livestream of 'K-Pop Poppin' music festival", "i18n": ""};
+var COWBOY_POETRY = {"en": "Discover Cowboy Poetry", "i18n": ""};
+var DETECTIVE_STORIES = {"en": "Great Detective Stories", "i18n": ""};
+var COMEDY_COMPETITION = {"en": "Comedy Competition: The Standup Comic Reality Show", "i18n": ""};
+
+//FOOD
+var GNOCCHI = {"en": "Gnocchi with Nona", "i18n": ""};
+var SUNDUBU = {"en": "How to make Sundubu at home", "i18n": ""};
+var NAAN = {"en": "Naan-negotiable: the Naan review show", "i18n": ""};
+var BUGS_BREAKFAST = {"en": "Bugs for breakfast? A surprising source of protein", "i18n": ""};
+var FRITO_PIE = {"en": "Food hack: Frito Pie in the bag", "i18n": ""};
+var DUMPLINGS_DIMSUM = {"en": "Dumplings and Dim Sum: A guide to ordering", "i18n": ""};
+var PROTEIN_SHAKES = {"en": "Top 5 protein shakes for athletes", "i18n": ""};
+var BOBA_TEAS = {"en": "Boba Tea Hacks: Unique flavor combinations", "i18n": ""};
+
+//PEOPLE
+var ROCKET_SCIENTIST = {"en": "WOW! Interview with a real-life rocket scientist", "i18n": ""};
+var PYRAMIDS_UFO = {"en": "Pyramids and UFOs? Let’s ask an expert", "i18n": ""};
+var JIM_LEE = {"en": "Jim Lee and the DC Comic Universe", "i18n": ""};
+var FRIDA_KAHLO = {"en": "Analyzing the art of Frida Kahlo", "i18n": ""};
+var JACKIE_ROBINSON = {"en": "The legacy of Jackie Robinson in Baseball and beyond", "i18n": ""};
+var CARL_SAGAN = {"en": "Carl Sagan and the Universe: we are made of stardust", "i18n": ""};
+var BEAR_GRYLLS = {"en": "Surviving in Nature with Bear Grylls", "i18n": ""};
+var BECKY_STERN = {"en": "An Interview with Becky Stern: The power of wearable electronics", "i18n": ""};
+
+//CLOTHING
+var DUCT_TAPE_WALLETS = {"en": "Variations on Duct Tape Wallets", "i18n": ""};
+var SNEAKER_SESSION = {"en": "Sneaker Session: Hottest sneakers released this year", "i18n": ""};
+var MAD_HATTER = {"en": "The Mad Hatter: Hat Reviews", "i18n": ""};
+var GEMSTONES_ACCESSORIES = {"en": "Down to Earth: how to accessorize with gemstones", "i18n": ""};
+var FUR_LEATHER_ALTERNATIVES = {"en": "Top 5 alternatives to fur and leather clothing", "i18n": ""};
+var COWBOY_ACCESSORIES = {"en": "Did you know? 10 accessories used by cowboys in the old west", "i18n": ""};
+var BOWTIES = {"en": "How to make a statement with Bowties", "i18n": ""};
+var VINTAGE_SHOPPING = {"en": "Hands-on guide to vintage clothes shopping", "i18n": ""};
+
+//Activity Titles
+var ACTIVITIES = {"en": "Activities", "i18n": ""};
+var MEDIA = {"en": "Media", "i18n": ""};
+var FOOD = {"en": "Food", "i18n": ""};
+var PEOPLE = {"en": "People", "i18n": ""};
+var CLOTHING = {"en": "Clothing", "i18n": ""};
